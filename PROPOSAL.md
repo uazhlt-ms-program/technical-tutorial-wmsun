@@ -25,6 +25,10 @@ _The tutorial will cover how to install and use SpaCy for a custom NER task._
 
 _The form of this tutorial will be a walkthrough of an NLP algorithm accompanied by working code._
 
+_The corpus I currently plan to use to is The NCBI DiSease Corpus (https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/). There are 790 unique disease concepts._
+
+_Corpus like this will help further train the existing NER model in SpaCy for the custom NER tasks._
+
 ### License
 
 _NA_
