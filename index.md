@@ -1,8 +1,8 @@
-# Customized Named Entity Recognition (NER) using SpaCy
+# Custom Named Entity Recognition (NER) using SpaCy
 ### A brief tutorial for beginners like me!
 
 
-In this tutorial, I want to share what I have learned and apply what I have learned into a specific task, customized Named Entity Recognition (NER) using SpaCy.
+In this tutorial, I want to share what I have learned and apply what I have learned into a specific task, custom Named Entity Recognition (NER) using SpaCy.
 
 
 
