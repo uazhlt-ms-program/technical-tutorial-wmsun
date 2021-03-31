@@ -12,7 +12,8 @@ https://spacy.io/
 
 ### Usage
 
-_I want to share what I learned about using SpaCy for custom Named Entity Recognition tasks._
+_This tool is going to tag the textual data with custom aamed entities._
+_For instance, when dealing with data in medical domain, there are special named entities needed to be identified. This tool is going to help with this type of tasks._
 
 ### Natural languages supported
 
