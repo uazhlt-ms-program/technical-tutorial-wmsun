@@ -20,15 +20,11 @@ _English_
 
 ### Proposal
 
-_Describe the form your tutorial will take (nature of data, domain, etc.)_
-
 _The tutorial will cover how to install and use SpaCy for a custom NER task._
 
-The form of this tutorial will be a walkthrough of an NLP algorithm accompanied by working code.
-
-
-
+_The form of this tutorial will be a walkthrough of an NLP algorithm accompanied by working code._
 
 ### License
 
-_License name and link if available_
+_NA_
+_SpaCy is a free, open-source library for NLP in Python._
