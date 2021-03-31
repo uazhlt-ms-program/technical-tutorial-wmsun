@@ -31,5 +31,4 @@ _Corpus like this will help further train the existing NER model in SpaCy for th
 
 ### License
 
-_NA_
 _SpaCy is a free, open-source library for NLP in Python._
