@@ -4,7 +4,7 @@
 
 In this tutorial, I want to share what I have learned and apply what I have learned into a specific task, custom Named Entity Recognition (NER) using SpaCy.
 
-
+Initially, I planned to use the data from [The NCBI Disease Corpus] (https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/). However, I decided to use a much [smaller and simpler corpus] (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6) to demonstrate the process while finishing the data preprocessing for the NCBI Disease Corpus.
 
 
 You can use the [editor on GitHub](https://github.com/uazhlt-ms-program/technical-tutorial-wmsun/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
