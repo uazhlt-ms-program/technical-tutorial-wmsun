@@ -7,21 +7,22 @@ In this tutorial, I want to share what I have learned and apply what I have lear
 Initially, I planned to use the data from [The NCBI Disease Corpus](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/). However, I decided to use a much [smaller and simpler corpus](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6) to demonstrate the process while finishing the data preprocessing for the NCBI Disease Corpus.
 
 ### This tutorial will cover:
-1. Installation of SpaCy.
+1. Installation of spaCy.
 2. Preprocessing of the training data.
 3. Model training for the custom NER task
 4. Model testing using test data
 
 Now, let's get started!
 
-### Installation of SpaCy
-You can use PIP install in the Python console by typing:
+### Installation of spaCy
+You can use PIP install to set up spaCyin the Python console by typing:
 ```markdown
 pip install -U pip setuptools wheel
 pip install -U spacy
 ```
 
-
+### Training data preprocessing 
+The training and test data are tsv files. For spaCy to work, the data need to be converted to binary format that 
 
 
 
