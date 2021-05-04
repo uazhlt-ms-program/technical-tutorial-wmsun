@@ -1,27 +1,34 @@
 ### Tool name
 
-_Name of tool here_
+_SpaCy v2.x/v3.x_
 
 ### URL (tutorial)
 
-_provide the URL for your webpage.  This should be "live" (i.e., publicly accessible), though the page doesn't need to have any content related to the tutorial prior to your proposal being accepted._
+https://uazhlt-ms-program.github.io/technical-tutorial-wmsun/
 
 ### URL (tool)
 
-_URL of tool here_
-
-### License
-
-_License name and link if available_
+https://spacy.io/
 
 ### Usage
 
-_Describe the problems the tool aims to solve_
+_This tool is going to tag the textual data with custom aamed entities._
+_For instance, when dealing with data in medical domain, there are special named entities needed to be identified. This tool is going to help with this type of tasks._
 
 ### Natural languages supported
 
-_List or describe the kinds of natural languages supported by the tool_
+_English_
 
 ### Proposal
 
-_Describe the form your tutorial will take (nature of data, domain, etc.)_
+_The tutorial will cover how to install and use SpaCy for a custom NER task._
+
+_The form of this tutorial will be a walkthrough of an NLP algorithm accompanied by working code._
+
+_The corpus I currently plan to use to is The NCBI DiSease Corpus (https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/). There are 790 unique disease concepts._
+
+_Corpus like this will help further train the existing NER model in SpaCy for the custom NER tasks._
+
+### License
+
+_SpaCy is a free, open-source library for NLP in Python._
