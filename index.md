@@ -7,21 +7,21 @@ In this tutorial, I want to share what I have learned and apply what I have lear
 Initially, I planned to use the data from [The NCBI Disease Corpus](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/). However, I decided to use a much [smaller and simpler corpus](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03834-6) to demonstrate the process while finishing the data preprocessing for the NCBI Disease Corpus.
 
 ### This tutorial will cover:
-1. Installation of spaCy.
-2. Preprocessing of the training data.
-3. Model training for the custom NER task
-4. Model testing using test data
+1. Install spaCy
+2. Pre-process the training data
+3. Train a model for the custom NER task
+4. Test the performance of the model
 
 Now, let's get started!
 
-### Installation of spaCy
+### Install spaCy
 You can use PIP install to set up spaCyin the Python console by typing:
 ```markdown
 pip install -U pip setuptools wheel
 pip install -U spacy
 ```
 
-### Training data preprocessing 
+### Pre-process the training data
 The training and test data are tsv files. For spaCy to work, the data need to be converted to [binary format](https://spacy.io/api/data-formats#training). To do that, we will first write a function to mannually convert the tsv files to JSON fomart and use ```spacy convert``` to convert the files to the required format. In this tutorial, instead of using that approach, we can write a couple more lines of code to get the desired format.
 
 The code for converting ```tsv``` to ```JSON``` is shown as below:
@@ -117,7 +117,7 @@ for line in lines:
 
     training_data.append((text, {"entities": entities}))
 ```
-
+### Train a model for the custom NER task
 Once the data is ready, we can start the training process as below:
 ```
 model = None
@@ -176,6 +176,9 @@ if output_dir is not None:
 
 print("end of training.")
 ```
+
+### Test the performance of the model
+
 Now, we have built a model for the NER task using spaCy. What we need to do next is to use the test data and see how well the model performs.
 
 ```
@@ -227,7 +230,9 @@ At 100 iterations, the trained model's performance on test data:
 | Recall  | 0.25  | 0.14 |
 | F1  | 0.33  | 0.2 |
 
-The low scores are not surprising because the training data is a small corpus. However, it shows that this method totally worked. With a larger training corpus, I believe the performance will be greatly improved.
+The low scores are not surprising because the training data is a small corpus. However, at least it shows that this method worked. With a larger training corpus, I believe the performance will be greatly improved.
 
 
-This tutorial allowed me to explore the NER function of spaCy, and GitHub Pages for the first time. There was a little bit of learning curve but it was a great learning experience. 
+*This tutorial allowed me to explore the NER function of spaCy, and GitHub Pages for the first time. There was a little bit of learning curve but it was a great learning experience.*
+
+*Spring 2021*
